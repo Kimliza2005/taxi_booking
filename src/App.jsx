@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import {BrowserRouter,Routes,Route, Outlet, Router} from "react-router-dom"
+import { BrowserRouter, Routes, Route, Outlet, Router } from "react-router-dom"
 import CustomerMainLyout from './Layouts/CustomerLayout/CustomerMainLayout'
 import CustomerHeader from './assets/components/Headers/CustomerHeader'
 import RouteNotFound from './assets/components/RouteNotFound/RouteNotFound'
@@ -11,32 +11,27 @@ import FAQsPage from './FrontEnd/CustomerPages/FAQsPage'
 import LoginPage from './FrontEnd/CustomerPages/LoginPage'
 import AdminLayout from './Layouts/AdminLayout/AdminLayout'
 import HomePage from './FrontEnd/AdminPages/HomePage'
+import TravelSearch from './FrontEnd/CustomerPages/TravelSearch'
 
 
 
 function App() {
 
-
   return (
     <>
-    <BrowserRouter>
-    <Routes>
-      <Route element={<CustomerMainLyout/>}>
-      <Route path='/' element={<Buses/>}/>
-      <Route path='/branches' element={<BranchesPage/>}/>
-      <Route path='/about' element={<AboutPage/>}/>
-      <Route path='/faqs' element={<FAQsPage/>} />
-      <Route path='/login' element={<LoginPage/>}/>
-      <Route path="*" element={<RouteNotFound/>}/>
-      </Route>
-    </Routes>
-    <Routes>
-      <Route element={<AdminLayout/>}>
-      <Route path='/' element={<HomePage/>}/>
-      <Route path="*" element={<RouteNotFound/>}/>
-      </Route>
-    </Routes>
-    </BrowserRouter>
+      <BrowserRouter>
+        <Routes>
+          <Route element={<CustomerMainLyout />}>
+            <Route path='/' element={<Buses />} />
+            <Route path='/branches' element={<BranchesPage />} />
+            <Route path='/about' element={<AboutPage />} />
+            <Route path='/faqs' element={<FAQsPage />} />
+            <Route path='/login' element={<LoginPage />} />
+            <Route path='/travelsearch' element={<TravelSearch />} />
+            <Route path="*" element={<RouteNotFound />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }
