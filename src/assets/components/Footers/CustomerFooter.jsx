@@ -34,15 +34,15 @@ const CustomerFooter = () => {
                   >Branches</a>
                 </li>
                 <li>
-                  <a className="text-neutral-800 dark:text-neutral-200"
+                  <a className="text-neutral-800 dark:text-neutral-200" href="/about"
                   >About</a>
                 </li>
                 <li>
-                  <a className="text-neutral-800 dark:text-neutral-200"
+                  <a className="text-neutral-800 dark:text-neutral-200" href="/faqs"
                   >FAQs</a>
                 </li>
                 <li>
-                  <a className="text-neutral-800 dark:text-neutral-200"
+                  <a className="text-neutral-800 dark:text-neutral-200" href="/privacypolicy"
                   >Privacy Policy</a>
                 </li>
                 <li>
@@ -50,7 +50,6 @@ const CustomerFooter = () => {
                   >Term & Conditions</a>
                 </li>
               </ul>
-
             </div>
 
             {/* <!--Third links section--> */}

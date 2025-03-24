@@ -12,6 +12,7 @@ import LoginPage from './FrontEnd/CustomerPages/LoginPage'
 import AdminLayout from './Layouts/AdminLayout/AdminLayout'
 import HomePage from './FrontEnd/AdminPages/HomePage'
 import TravelSearch from './FrontEnd/CustomerPages/TravelSearch'
+import PrivacyPolicy from './FrontEnd/CustomerPages/PrivacyPolicy'
 
 
 
@@ -28,6 +29,7 @@ function App() {
             <Route path='/faqs' element={<FAQsPage />} />
             <Route path='/login' element={<LoginPage />} />
             <Route path='/travelsearch' element={<TravelSearch />} />
+            <Route path='/privacypolicy' element={<PrivacyPolicy />} />
             <Route path="*" element={<RouteNotFound />} />
           </Route>
         </Routes>

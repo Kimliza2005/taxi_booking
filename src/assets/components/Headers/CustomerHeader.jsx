@@ -5,7 +5,7 @@ const CustomerHeader = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     return (
-        <nav className="p-3 bg-[#31A505] md:flex md:items-center md:justify-between shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
+        <nav className="p-3 bg-[#31A505] md:flex md:items-center md:justify-between shadow-[0_3px_10px_rgb(0,0,0,0.2)] relative">
             <div className="flex justify-between items-center">
                 <img className="h-14 inline cursor-pointer" src="https://larrytabus.com/img/logo-white.png" alt="Logo" />
 
