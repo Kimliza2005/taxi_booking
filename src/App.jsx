@@ -13,6 +13,8 @@ import AdminLayout from './Layouts/AdminLayout/AdminLayout'
 import HomePage from './FrontEnd/AdminPages/HomePage'
 import TravelSearch from './FrontEnd/CustomerPages/TravelSearch'
 import PrivacyPolicy from './FrontEnd/CustomerPages/PrivacyPolicy'
+import AccountSettings from './FrontEnd/CustomerPages/AccountSitting'
+import TermAndCondition from './FrontEnd/CustomerPages/TermAndCondition'
 
 
 
@@ -30,6 +32,8 @@ function App() {
             <Route path='/login' element={<LoginPage />} />
             <Route path='/travelsearch' element={<TravelSearch />} />
             <Route path='/privacypolicy' element={<PrivacyPolicy />} />
+            <Route path='/accountsitting' element={<AccountSettings />} />
+            <Route path='/termcondition' element={<TermAndCondition />}/>
             <Route path="*" element={<RouteNotFound />} />
           </Route>
         </Routes>

@@ -46,7 +46,7 @@ const CustomerFooter = () => {
                   >Privacy Policy</a>
                 </li>
                 <li>
-                  <a className="text-neutral-800 dark:text-neutral-200"
+                  <a className="text-neutral-800 dark:text-neutral-200" href="/termcondition"
                   >Term & Conditions</a>
                 </li>
               </ul>

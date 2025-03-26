@@ -37,7 +37,7 @@ const CustomerHeader = () => {
                     <a href="/faqs" className="text-[17px] text-white hover:text-gray-300 duration-500">FAQs</a>
                 </li>
                 <li className="mx-4 my-6 md:my-0">
-                    <a href="#" className="text-[17px] text-white hover:text-gray-300 duration-500">Profile</a>
+                    <a href="/accountsitting" className="text-[17px] text-white hover:text-gray-300 duration-500">Profile</a>
                 </li>
 
                 <Link to="/login">
