@@ -25,19 +25,19 @@ const CustomerHeader = () => {
                 ${menuOpen ? "top-16 opacity-100 visible" : "top-[-400px] opacity-0 invisible"} md:opacity-100 md:visible`}
             >
                 <li className="mx-4 my-6 md:my-0">
-                    <a href="/" className="text-[17px] text-white hover:text-gray-300 duration-500">Buses</a>
+                    <Link to="/" className="text-[17px] text-white hover:text-gray-300 duration-500">Buses</Link>
                 </li>
                 <li className="mx-4 my-6 md:my-0">
-                    <a href="/branches" className="text-[17px] text-white hover:text-gray-300 duration-500">Branches</a>
+                    <Link to="/branches" className="text-[17px] text-white hover:text-gray-300 duration-500">Branches</Link>
                 </li>
                 <li className="mx-4 my-6 md:my-0">
-                    <a href="/about" className="text-[17px] text-white hover:text-gray-300 duration-500">About</a>
+                    <Link to="/about" className="text-[17px] text-white hover:text-gray-300 duration-500">About</Link>
                 </li>
                 <li className="mx-4 my-6 md:my-0">
-                    <a href="/faqs" className="text-[17px] text-white hover:text-gray-300 duration-500">FAQs</a>
+                    <Link to="/faqs" className="text-[17px] text-white hover:text-gray-300 duration-500">FAQs</Link>
                 </li>
                 <li className="mx-4 my-6 md:my-0">
-                    <a href="/accountsitting" className="text-[17px] text-white hover:text-gray-300 duration-500">Profile</a>
+                    <Link to="/profile" className="text-[17px] text-white hover:text-gray-300 duration-500">Profile</Link>
                 </li>
 
                 <Link to="/login">

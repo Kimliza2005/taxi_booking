@@ -1,7 +1,7 @@
 import React from "react";
 import playstorePic from "../../images/logo/playstore.png"
 import appstorePic from "../../images/logo/Appstore.png"
-
+import { Link } from "react-router-dom";
 const CustomerFooter = () => {
   return (
     <>
@@ -26,28 +26,28 @@ const CustomerFooter = () => {
               </h2>
               <ul className="mb-0 list-none text-[17px]">
                 <li>
-                  <a className="text-neutral-800 dark:text-neutral-200 " href="/"
-                  >Buses</a>
+                  <Link className="text-neutral-800 dark:text-neutral-200 " to="/"
+                  >Buses</Link>
                 </li>
                 <li>
-                  <a className="text-neutral-800 dark:text-neutral-200" href="/branches"
-                  >Branches</a>
+                  <Link className="text-neutral-800 dark:text-neutral-200" to="/branches"
+                  >Branches</Link>
                 </li>
                 <li>
-                  <a className="text-neutral-800 dark:text-neutral-200" href="/about"
-                  >About</a>
+                  <Link className="text-neutral-800 dark:text-neutral-200" to="/about"
+                  >About</Link>
                 </li>
                 <li>
-                  <a className="text-neutral-800 dark:text-neutral-200" href="/faqs"
-                  >FAQs</a>
+                  <Link className="text-neutral-800 dark:text-neutral-200" to="/faqs"
+                  >FAQs</Link>
                 </li>
                 <li>
-                  <a className="text-neutral-800 dark:text-neutral-200" href="/privacypolicy"
-                  >Privacy Policy</a>
+                  <Link className="text-neutral-800 dark:text-neutral-200" to="/privacypolicy"
+                  >Privacy Policy</Link>
                 </li>
                 <li>
-                  <a className="text-neutral-800 dark:text-neutral-200" href="/termcondition"
-                  >Term & Conditions</a>
+                  <Link className="text-neutral-800 dark:text-neutral-200" to="/termcondition"
+                  >Term & Conditions</Link>
                 </li>
               </ul>
             </div>
