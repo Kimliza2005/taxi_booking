@@ -1,6 +1,4 @@
 import React from "react";
-import playstorePic from "../../images/logo/playstore.png"
-import appstorePic from "../../images/logo/Appstore.png"
 import { Link } from "react-router-dom";
 const CustomerFooter = () => {
   return (
@@ -75,12 +73,12 @@ const CustomerFooter = () => {
               <ul className="flex justify-between mb-0 list-none text-[17px]">
                 <li>
                   <a className="text-neutral-800 dark:text-neutral-200" href="https://play.google.com/store/search?q=larryta+bus&c=apps">
-                    <img src={playstorePic} alt="" class="mb-5 w-[200px]" />
+                    <img  alt="" class="mb-5 w-[200px]" />
                   </a>
                 </li>
                 <li>
                   <a className="text-neutral-800 dark:text-neutral-200" href="https://apps.apple.com/us/app/larryta-bus/id6478513013">
-                    <img src={appstorePic} class="w-[200px]" alt="" />
+                    <img class="w-[200px]" alt="" />
                   </a>
                 </li>
               </ul>

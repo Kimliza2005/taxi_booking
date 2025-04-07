@@ -1,9 +1,10 @@
 import React from "react";
-
+import { Outlet } from "react-router-dom";
+import DashboardPage from "../../FrontEnd/AdminPages/DashboardPage";
 const AdminMainLayout = () => {
     return (
         <>
-        <h1>hello admin</h1>
+        <DashboardPage />
         </>
     )
 }
