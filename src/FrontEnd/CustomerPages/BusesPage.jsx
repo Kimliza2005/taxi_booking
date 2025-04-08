@@ -13,9 +13,6 @@ const BusesPage = () => {
                 <Tips />
                 <Slogan />
                 <div className="p-6 mx-auto">
-                    {/* <h2 className="text-2xl font-bold mb-6">
-                        FAQ
-                    </h2> */}
                     <FAQsPage />
                 </div>
             </div>

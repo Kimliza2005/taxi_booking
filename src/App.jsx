@@ -15,6 +15,7 @@ import TermAndCondition from './FrontEnd/CustomerPages/TermAndCondition'
 import DashboardPage from './FrontEnd/AdminPages/DashboardPage'
 import Profile from './FrontEnd/CustomerPages/Profile'
 import AdminMainLayout from './Layouts/AdminLayout/AdminMainLayout'
+import DriverMainLayout from './Layouts/DriverLayout/DriverMainLayout'
 
 
 function App() {
@@ -36,8 +37,15 @@ function App() {
             <Route path="*" element={<RouteNotFound />} />
           </Route>
 
+          {/* admin */}
+
           <Route path='/admin' element={<AdminMainLayout />}>
             <Route index element={<DashboardPage />} />
+            <Route />
+          </Route>
+          {/* driver */}
+          <Route path='/driver' element={<DriverMainLayout />}>
+
             <Route />
           </Route>
         </Routes>
