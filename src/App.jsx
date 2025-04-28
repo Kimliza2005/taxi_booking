@@ -24,6 +24,7 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
+          {/* user */}
           <Route path="/" element={<CustomerMainLayout />}>
             <Route index element={<Buses />} />
             <Route path='/branches' element={<BranchesPage />} />
