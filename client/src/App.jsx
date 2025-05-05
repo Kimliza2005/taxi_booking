@@ -16,7 +16,7 @@ import DashboardPage from './FrontEnd/AdminPages/DashboardPage'
 import Profile from './FrontEnd/CustomerPages/Profile'
 import AdminMainLayout from './Layouts/AdminLayout/AdminMainLayout'
 import DriverMainLayout from './Layouts/DriverLayout/DriverMainLayout'
-import SideBar from './FrontEnd/AdminPages/Sidebar'
+
 
 
 function App() {
@@ -42,7 +42,7 @@ function App() {
           {/* admin */}
 
           <Route path='/admin' element={<AdminMainLayout />}>
-            <Route index element={<SideBar />} />
+            <Route index element={<DashboardPage />} />
             <Route />
           </Route>
           {/* driver */}

@@ -1,11 +1,14 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
-import DashboardPage from "../../FrontEnd/AdminPages/DashboardPage";
 import SideBar from "../../FrontEnd/AdminPages/Sidebar";
+import DashboardPage from "../../FrontEnd/AdminPages/DashboardPage";
 const AdminMainLayout = () => {
     return (
         <>
+        <div className="w-full flex">
         <SideBar />
+        <DashboardPage />
+        </div>
         </>
     )
 }
